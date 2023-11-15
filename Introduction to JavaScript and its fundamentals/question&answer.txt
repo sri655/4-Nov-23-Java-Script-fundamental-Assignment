@@ -1,0 +1,73 @@
+Question 1: Explain what JavaScript is and its role in web development ?
+ 
+ Ans : java script is highlevel programming language. it is used to build web application 
+       it is a scripting language it is run by web browser not in web server.
+
+        In web development it is used to add interactivity and dynamic elements to website.
+        allows developers to create reponsive interface, handles user interaction. and update web page
+        without full page reload.
+
+Question 2: Explain the key differences between JavaScript and HTML. Provide examples of situations where
+you would use each.  
+
+Ans  : The basic key difference is that java script is a programming language and Html is a markup language.
+       html is used to create the skeleton of a website it defines heading , nav bar etc.
+        and through javascript we can manipulate the html and css.
+       
+       example use Html: if i need to create a register page in that input field are required for that input 
+       field i will use html input tag.
+
+       example use of java script : after creating those input field for validate those input field i will use 
+       javascript.
+
+Question 3: List and describe the five primitive data types in JavaScript.
+
+Ans : Five primitive datatypes are :1)String 
+                                    2)Number
+                                    3)Boolean
+                                    4)Undefined
+                                    5)Null
+        String : strings combination of alphanumeric character wrapped in either single or double quote.
+         Ex:"PwSkill"
+
+        Number:any number in javascript is consider as Number type including float and decimal.
+        Ex: 12 , 1.3
+
+         Boolean: it has only two values True and false
+          Ex: true, false.
+
+         Undefined: after declaring a variable if we dont keep any value then Undefined.
+          Ex: let a;
+
+          Null:It means nothing no value.
+          Ex : let b=Null;
+
+ Question 4: What is the purpose of declaring variables in JavaScript, and how do you declare them using the
+'let' keyword?
+
+Ans : The purpose of declearing variable is we can manipulate data through variable by keeping inside a variable.
+    variables are kind of container.
+
+    Ex: let a=10;
+
+
+Question 5: Explain the importance of comments in JavaScript and provide examples of single-line and
+multi-line comments. 
+
+Ans:  Through comments we can write explation of a code.
+
+Question 6: Explain the importance of choosing meaningful and descriptive variable names in JavaScript.
+Provide an example where using a clear identifier improves code readability.
+
+Ans : Through descriptive variable name the code will become readability. and even if some other persion is 
+reading your code they also can understand easyliy. it can help while bug fix also.
+
+Ex: // Non-descriptive variable names
+function calculateArea(a, b) {
+    return a * b;
+}
+
+// Descriptive variable names
+function calculateRectangleArea(length, width) {
+    return length * width;
+}
