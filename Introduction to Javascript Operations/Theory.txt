@@ -1,0 +1,52 @@
+Q1. Explain the role of operators in JavaScript. Why are they essential in programming?
+
+Ans : The role of operator is to do operation with operands.basically when we need to do some operation like 
+      mathematical operation or some comparision or some logical operation etc. 
+
+      Basically in programming we do operation with data and to do operation we need operator.
+
+Q2. Describe the categorization of operators in JavaScript based on their functionality. Provide examples for
+each category.       
+     
+Ans : 1)Arithmetic Operators : these are used to do mathematical operation.
+ Ex: let a =3 , b=5;
+     let c=a+b;
+
+     2)Comparison Operators:  These are used to do comparision 
+     Ex: let a=9, b=8;
+         let c= (a === b)
+       
+     3)Logical Operators : Used to do logical operations these are reurn boolean values in result.
+     Ex : let a=5,b=9 ;
+         let c= a>=b || b>=a
+     4)Assignment Operators: these are used to a to assign values in variables
+     Ex: let a=10;
+    
+    5)Unary Operators: these operator only need single operands.
+     Ex : let a = 5++;
+
+    6)Nullish Coalescing (??): it is used to handle null or undefined values. if the left side is nul or undefined 
+       it will return right side value.
+        let a=null;
+        let b= a??8;
+   Q3. Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.   
+
+    Ans : Unary operator need only one operand 
+          binary operator need two operand
+          ternary operator is the short form of "if else"
+
+   Q4. Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts
+        important?       
+
+        1. Precedence:
+         Precedence determines the order in which operators are evaluated in an expression. 
+         Operators with higher precedence are evaluated first.
+
+        2. Associativity: Associativity determines the order of evaluation when multiple operators with the same precedence appear in an expression.
+           It can be left-to-right or right-to-left.
+
+           importance of knowing these concepts : Knowing the precedence helps in writing clear and unambiguous expressions. 
+           However, it's a good practice to use parentheses to make the code more readable, especially when dealing with mixed operators. 
+
+           and also we can avoid bugs .
+
